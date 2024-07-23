@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    border-bottom: 1px solid gainsboro;
+}
+
+.navbar-brand {
+    color: rgb(107, 6, 179) !important;
+}
+
+.navbar-brand span {
+    color:rgb(211, 18, 92);
+}
+
+.nav-main-btn {
+    border-right: none !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    font-size: 13px !important;
+}
+
+.nav-btn {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.carousel-item {
+    height: 700px;
+    padding: 0px 80px;
+}
+
+.first, .last {
+    padding: 0px 390px;
+}
+
+.arrows {
+    width: 150px !important;
+    height: 40px !important;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+
+footer ul li a:hover {
+    color:palegreen;
+}
+
+.subscribe {
+    height: 110px;
+}

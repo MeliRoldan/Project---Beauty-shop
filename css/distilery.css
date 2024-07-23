@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    border-bottom: 1px solid gainsboro;
+}
+
+.navbar-brand {
+    color: rgb(107, 6, 179) !important;
+}
+
+.navbar-brand span {
+    color:rgb(211, 18, 92);
+}
+
+.nav-main-btn {
+    border-right: none !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    font-size: 13px !important;
+    padding: 8.3px 10px !important;
+}
+
+.nav-btn {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+header {
+    object-fit: cover;
+    object-position: center;
+}
+
+.property-div .card img {
+    width: 90px;
+}
+
+.property-div .card .card-text {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-textbox h1 span {
+    color: rgba(0, 128, 0, 0.76);
+}
+
+.product-main-img-div {
+    position: relative !important;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+}
+
+.description-left {
+    position: absolute !important;
+    left: 27%;
+    top: 10%;
+}
+
+.description-right {
+    position: absolute !important;
+    left: 49%;
+    top: 10%;
+}
+
+.description-left .btn:hover , .description-right .btn:hover {
+    color: white;
+}
+
+.cBooster-btn {
+   border: 1px solid darkorange !important;
+   color: darkorange !important;
+}
+
+.cBooster-btn:hover {
+    background-color:darkorange !important;
+    color: white !important;
+}
+
+.second-main-text {
+    position: relative !important;
+}
+
+.card-img-overlay {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 45%;
+    border-radius: 15px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.second-main-text span {
+    color:rgb(9, 136, 9);
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+
+footer ul li a:hover {
+    color:palegreen;
+}
